@@ -160,5 +160,43 @@ insert into etapa (instrucao,ponto,tipo)values("o jogador tem que encontrar as f
 insert into etapa (instrucao,ponto,tipo)values("o jogador tem que encontar objetos especificos no jogo",9,"c");
 insert into etapa(instrucao,ponto,tipo)values ("o jogador tem que encontrar databases para acumular forca",10,"h");
 
+insert into verbo (fk_bloom_id)values (1);
 
+select * from verbo;
+
+update verbo set fk_bloom_id = 1 where id <= 7;
+
+update verbo set fk_bloom_id = 2 where id > 7 and id < 15;
+update verbo set fk_bloom_id = 3 where id = 15;
+update verbo set fk_bloom_id = 3 where id = 16;
+update verbo set fk_bloom_id = 3 where id = 17;
+update verbo set fk_bloom_id = 3 where id = 18;
+update verbo set fk_bloom_id = 3 where id = 19;
+update verbo set fk_bloom_id = 3 where id = 20;
+update verbo set fk_bloom_id = 3 where id = 21;
+update verbo set fk_bloom_id = 3 where id = 22;
+
+update verbo set fk_bloom_id = 4 where id = 23;
+update verbo set fk_bloom_id = 4 where id = 24;
+update verbo set fk_bloom_id = 4 where id = 25;
+update verbo set fk_bloom_id = 4 where id = 26;
+update verbo set fk_bloom_id = 4 where id = 27;
+update verbo set fk_bloom_id = 4 where id = 28;
+update verbo set fk_bloom_id = 4 where id = 29;
+
+update verbo set fk_bloom_id = 5 where id = 30;
+update verbo set fk_bloom_id = 5 where id = 31;
+update verbo set fk_bloom_id = 5 where id = 32;
+update verbo set fk_bloom_id = 5 where id = 33;
+update verbo set fk_bloom_id = 5 where id = 34;
+update verbo set fk_bloom_id = 5 where id = 35;
+update verbo set fk_bloom_id = 5 where id = 36;
+
+update verbo set fk_bloom_id = 6 where id = 37;
+update verbo set fk_bloom_id = 6 where id = 38;
+update verbo set fk_bloom_id = 6 where id = 39;
+update verbo set fk_bloom_id = 6 where id = 40;
+update verbo set fk_bloom_id = 6 where id = 41;
+update verbo set fk_bloom_id = 6 where id = 42;
+update verbo set fk_bloom_id = 6 where id = 43;
 
